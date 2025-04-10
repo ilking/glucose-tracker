@@ -114,3 +114,7 @@ I intially wanted to make a single backend call to get the numbers needed for th
 ## Testing
 
 I mostly skipped this step to keep things simple and stick to the time frame.
+
+## Rails Master Key
+
+I'm aware that the Rails Master Key is committed to the repo. That's bad but not in the scope of this project to bother fixing.
