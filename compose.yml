@@ -1,0 +1,25 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - RAILS_MASTER_KEY=896ebe374a07f8725f93f8a327300783
+      - RAILS_ENV=development
+      - NODE_ENV=development
+      - BIND=0.0.0.0
+    volumes:
+      - ./app:/rails/app
+      - ./config:/rails/config
+      - ./config/master.key:/rails/config/master.key
+      - ./db:/rails/db
+      - ./lib:/rails/lib
+      - ./public:/rails/public
+      - ./tmp:/rails/tmp
+      - ./log:/rails/log
+      - ./storage:/rails/storage
+      - ./Procfile.dev:/rails/Procfile.dev
+    entrypoint: ["/rails/bin/docker-entrypoint"]
+    command: ["/rails/bin/dev"] 

@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: MyString
+  value: 1
+  tested_at: 2025-04-09 17:17:38
+  tz_offset: MyString
+
+two:
+  user_id: MyString
+  value: 1
+  tested_at: 2025-04-09 17:17:38
+  tz_offset: MyString

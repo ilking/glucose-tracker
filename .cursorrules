@@ -1,0 +1,22 @@
+This is a Ruby on Rails App with a React Frontend.
+
+## Frontend tech stack
+
+React
+tailwindcss
+React Router
+Material UI
+
+- Frontend packages are instaled with Yarn.
+- Formatting is handled by the editor's default settings for js/jsx files.
+- Use the Apple Human Interface Guidelines for a clean, modern, minimalist design.
+- Include mobile and desktop screen handling using media queries.
+- All components should be functional components in their own files.
+- Organize component files in the app/javascript
+
+## Backend stack
+
+Ruby on Rails
+SQLite3
+
+- Do not create rails views. All views are handled by React.
